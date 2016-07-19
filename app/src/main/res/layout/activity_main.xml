@@ -1,0 +1,61 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hyman = "http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <progressBar.Progrssbar
+            android:id="@+id/progressLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="0"
+            android:padding="5dp"
+            />
+        <progressBar.Progrssbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="100"
+            android:padding="10dp"
+            hyman:progress_reach_height="10dp"
+            hyman:progress_text_size="10sp"
+            />
+        <progressBar.Progrssbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="0"
+
+            />
+        <progressBar.CircleProgressBar
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            hyman:radius="40dp"
+            android:progress="20"
+            android:padding="10dp"
+            hyman:progress_reach_height="10dp"
+            hyman:progress_text_size="10sp"
+
+            />
+        <progressBar.CircleProgressBar
+            android:id="@+id/progressCircle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            hyman:radius="80dp"
+            android:progress="0"
+            android:padding="10dp"
+            hyman:progress_reach_height="10dp"
+            hyman:progress_text_size="10sp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>
